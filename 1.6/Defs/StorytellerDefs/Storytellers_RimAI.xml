@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- Narrador Principal com AI -->
+    <StorytellerDef>
+        <defName>RimAI_AIOracle</defName>
+        <label>RimAI_AIOracle.label</label>
+        <description>RimAI_AIOracle.description</description>
+        <portraitLarge>UI/AIStoryteller_Large</portraitLarge>
+        <portraitTiny>UI/AIStoryteller_Tiny</portraitTiny>
+        <listOrder>99</listOrder>
+        <tutorialMode>false</tutorialMode>
+        <disableAdaptiveTraining>false</disableAdaptiveTraining>
+        <pointsFactorFromDaysPassed>
+            <points>
+                <li>(0, 0.3)</li>
+                <li>(10, 1)</li>
+                <li>(40, 1.5)</li>
+                <li>(100, 2)</li>
+            </points>
+        </pointsFactorFromDaysPassed>
+        <pointsFactorFromAdaptDays>
+            <points>
+                <li>(0, 0.5)</li>
+                <li>(10, 1)</li>
+                <li>(20, 1.5)</li>
+            </points>
+        </pointsFactorFromAdaptDays>
+        <adaptDaysGrowthRateCurve>
+            <points>
+                <li>(0, 0.001)</li>
+                <li>(10, 0.002)</li>
+                <li>(40, 0.005)</li>
+            </points>
+        </adaptDaysGrowthRateCurve>
+        <adaptDaysLossFromColonistLostByPostPopulation>
+            <points>
+                <li>(0, 0.1)</li>
+            </points>
+        </adaptDaysLossFromColonistLostByPostPopulation>
+        <adaptDaysLossFromColonistViolentlyDownedByPopulation>
+            <points>
+                <li>(0, 0.5)</li>
+            </points>
+        </adaptDaysLossFromColonistViolentlyDownedByPopulation>
+        <populationIntentFactorFromPopCurve>
+            <points>
+                <li>(0, 1)</li>
+                <li>(1, 1)</li>
+                <li>(3, 0.8)</li>
+                <li>(5, 0.6)</li>
+                <li>(10, 0.4)</li>
+            </points>
+        </populationIntentFactorFromPopCurve>
+        <populationIntentFactorFromPopAdaptDaysCurve>
+            <points>
+                <li>(0, 1)</li>
+                <li>(10, 1)</li>
+                <li>(20, 0.8)</li>
+                <li>(50, 0.6)</li>
+            </points>
+        </populationIntentFactorFromPopAdaptDaysCurve>
+        <comps>
+            <li Class="RimWorld.StorytellerCompProperties_OnOffCycle">
+                <minDaysPassed>0.5</minDaysPassed>
+                <onDays>3.0</onDays>
+                <offDays>0.5</offDays>
+                <minSpacingDays>0.04</minSpacingDays>
+                <numIncidentsRange>1~2</numIncidentsRange>
+                <acceptFractionByDaysPassedCurve>
+                    <points>
+                        <li>(0, 1)</li>
+                    </points>
+                </acceptFractionByDaysPassedCurve>
+                <acceptPercentFactorPerThreatPointsCurve>
+                    <points>
+                        <li>(0, 1)</li>
+                        <li>(50, 1)</li>
+                        <li>(100, 1)</li>
+                    </points>
+                </acceptPercentFactorPerThreatPointsCurve>
+            </li>
+            <li Class="RimAI.Storytelling.StorytellerCompProperties_AIStoryteller">
+                <minDaysBetweenEvents>0.5</minDaysBetweenEvents>
+                <maxDaysBetweenEvents>3.0</maxDaysBetweenEvents>
+                <minSpacingDays>0.04</minSpacingDays>
+                <numIncidentsRange>1~2</numIncidentsRange>
+                <aiInfluence>1.0</aiInfluence>
+            </li>
+        </comps>
+    </StorytellerDef>
+</Defs>

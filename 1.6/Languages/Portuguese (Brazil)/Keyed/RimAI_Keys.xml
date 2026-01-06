@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Personalidades do Narrador -->
+  <RimAI_NarratorPersonality_Balanced>Equilibrado</RimAI_NarratorPersonality_Balanced>
+  <RimAI_NarratorPersonality_Sadistic>Sádico</RimAI_NarratorPersonality_Sadistic>
+  <RimAI_NarratorPersonality_Chaotic>Caótico</RimAI_NarratorPersonality_Chaotic>
+  <RimAI_NarratorPersonality_Protective>Protetor</RimAI_NarratorPersonality_Protective>
+
+  <!-- Idiomas -->
+  <RimAI_Language_Portuguese_BR>Português (Brasil)</RimAI_Language_Portuguese_BR>
+  <RimAI_Language_English>English</RimAI_Language_English>
+
+  <!-- Labels do Menu de Configurações -->
+  <RimAI_Settings_Provider>Provedor de API:</RimAI_Settings_Provider>
+  <RimAI_Settings_Model>Modelo de IA:</RimAI_Settings_Model>
+  <RimAI_Settings_Personality>Personalidade do Narrador:</RimAI_Settings_Personality>
+  <RimAI_Settings_Language>Idioma do Jogo:</RimAI_Settings_Language>
+  <RimAI_Settings_APIKey>API Key do {0}:</RimAI_Settings_APIKey>
+  <RimAI_Settings_GetAPIKey_OpenRouter>Obter API Key Gratuita (OpenRouter)</RimAI_Settings_GetAPIKey_OpenRouter>
+  <RimAI_Settings_GetAPIKey_OpenAI>Obter API Key (OpenAI)</RimAI_Settings_GetAPIKey_OpenAI>
+  <RimAI_Settings_GetAPIKey_Anthropic>Obter API Key (Anthropic)</RimAI_Settings_GetAPIKey_Anthropic>
+  <RimAI_Settings_MinInterval>Intervalo Mínimo entre Eventos: {0:F1} dias</RimAI_Settings_MinInterval>
+  <RimAI_Settings_MaxInterval>Intervalo Máximo entre Eventos: {0:F1} dias</RimAI_Settings_MaxInterval>
+  <RimAI_Settings_AiInfluence>Influência da AI: {0:F0}%</RimAI_Settings_AiInfluence>
+  <RimAI_Settings_CacheDescription>0% = Apenas vanilla | 100% = Controle total da AI</RimAI_Settings_CacheDescription>
+  <RimAI_Settings_UseCache>Usar Cache de Respostas</RimAI_Settings_UseCache>
+  <RimAI_Settings_CacheTime>Tempo de Cache: {0} horas</RimAI_Settings_CacheTime>
+  <RimAI_Settings_DebugMode>Modo Debug (logs detalhados)</RimAI_Settings_DebugMode>
+  <RimAI_Settings_ShowNotifications>Mostrar Notificações de API</RimAI_Settings_ShowNotifications>
+  <RimAI_Settings_TestConnection>Testar Conexão com API</RimAI_Settings_TestConnection>
+  <RimAI_Settings_APIConfigured>✓ API Key configurada</RimAI_Settings_APIConfigured>
+  <RimAI_Settings_APINotConfigured>⚠ API Key não configurada</RimAI_Settings_APINotConfigured>
+
+  <!-- Mensagens do Jogo -->
+  <RimAI_EventNotification>[Evento IA] {0}</RimAI_EventNotification>
+  <RimAI_APIFailure>Falha na API, usando evento vanilla</RimAI_APIFailure>
+  <RimAI_APITimeout>Timeout da API - usando evento vanilla</RimAI_APITimeout>
+  <RimAI_APIKeyRequired>Configure uma API Key primeiro!</RimAI_APIKeyRequired>
+  <RimAI_TestingConnection>Testando conexão com {0} API...</RimAI_TestingConnection>
+  <RimAI_ConnectionSuccess>✓ Conexão bem-sucedida com a API!</RimAI_ConnectionSuccess>
+  <RimAI_ConnectionError>✗ Erro na conexão: {0}</RimAI_ConnectionError>
+  <RimAI_TestAPIError>✗ Erro ao testar API: {0}</RimAI_TestAPIError>
+
+  <!-- Status e Avisos -->
+  <RimAI_Debug_APIRequest>Enviando requisição para IA...</RimAI_Debug_APIRequest>
+  <RimAI_Debug_UsingCache>Usando resposta do cache</RimAI_Debug_UsingCache>
+  <RimAI_Debug_RollFailed>Roll de influência falhou, usando vanilla</RimAI_Debug_RollFailed>
+  <RimAI_Debug_EventScheduled>Próximo evento agendado em {0:F1} dias</RimAI_Debug_EventScheduled>
+  <RimAI_Debug_IncidentInvalid>Incidente {0} não pode ser disparado agora (CanFireNow = false), ignorando decisão da IA</RimAI_Debug_IncidentInvalid>
+  <RimAI_Debug_APIResponse>Decisão recebida: {0}</RimAI_Debug_APIResponse>
+  <RimAI_Debug_InvalidDecision>Falha ao parsear decisão da IA</RimAI_Debug_InvalidDecision>
+  <RimAI_Debug_NoAPIKey>API Key não configurada, usando fallback vanilla</RimAI_Debug_NoAPIKey>
+
+  <!-- Categorias do Mod -->
+  <RimAI_ModCategory>RimAI - Narrativa com IA</RimAI_ModCategory>
+  <RimAI_SettingsTitle>RimAI - Configurações</RimAI_SettingsTitle>
+
+  <!-- Tooltips e Descrições -->
+  <RimAI_Personality_Balanced_Desc>Equilibra desafio e recompensa baseado no estado da colônia</RimAI_Personality_Balanced_Desc>
+  <RimAI_Personality_Sadistic_Desc>Prioriza eventos perigosos e desafiadores</RimAI_Personality_Sadistic_Desc>
+  <RimAI_Personality_Chaotic_Desc>Mistura eventos positivos e negativos imprevisivelmente</RimAI_Personality_Chaotic_Desc>
+  <RimAI_Personality_Protective_Desc>Prioriza eventos positivos e ajudadores</RimAI_Personality_Protective_Desc>
+
+</LanguageData>
