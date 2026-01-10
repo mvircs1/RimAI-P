@@ -7,7 +7,6 @@
     <supportedVersions>
         <li>1.6</li>
     </supportedVersions>
-    <modSettingsClass>RimAI.Core.RimAI_Mod</modSettingsClass>
     <modDependencies>
         <li>
             <packageId>brrainz.harmony</packageId>

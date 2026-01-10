@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- RimAI_AIOracle -->
+  <RimAI_AIOracle.label>Oráculo IA</RimAI_AIOracle.label>
+  <RimAI_AIOracle.description>Uma inteligência artificial que observa sua colônia e cria eventos narrativos personalizados baseados em suas ações, recursos disponíveis e contexto do jogo.
+
+O Oráculo IA analisa constantemente o estado da sua colônia e gera eventos que fazem sentido narrativamente, mantendo o equilíbrio entre desafio e diversão.
+
+Requer: Configuração de API Key nas opções do mod.</RimAI_AIOracle.description>
+
+</LanguageData>

@@ -1,49 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- Narrator Personalities -->
+  <!-- Abas da UI -->
+  <RimAI_Tab_API>API &amp; Connection</RimAI_Tab_API>
+  <RimAI_Tab_Narrative>Narrative</RimAI_Tab_Narrative>
+  <RimAI_Tab_Gameplay>Gameplay</RimAI_Tab_Gameplay>
+  <RimAI_Tab_Debug>Debug</RimAI_Tab_Debug>
+
+  <!-- Personalidades do Narrador -->
   <RimAI_NarratorPersonality_Balanced>Balanced</RimAI_NarratorPersonality_Balanced>
   <RimAI_NarratorPersonality_Sadistic>Sadistic</RimAI_NarratorPersonality_Sadistic>
   <RimAI_NarratorPersonality_Chaotic>Chaotic</RimAI_NarratorPersonality_Chaotic>
   <RimAI_NarratorPersonality_Protective>Protective</RimAI_NarratorPersonality_Protective>
 
-  <!-- Languages -->
-  <RimAI_Language_Portuguese_BR>Portuguese (Brazil)</RimAI_Language_Portuguese_BR>
+  <!-- Descrições das Personalidades -->
+  <RimAI_Personality_Balanced_Desc>Balances challenge and reward based on colony state</RimAI_Personality_Balanced_Desc>
+  <RimAI_Personality_Sadistic_Desc>Prioritizes dangerous and challenging events</RimAI_Personality_Sadistic_Desc>
+  <RimAI_Personality_Chaotic_Desc>Mixes positive and negative events unpredictably</RimAI_Personality_Chaotic_Desc>
+  <RimAI_Personality_Protective_Desc>Prioritizes positive and helpful events</RimAI_Personality_Protective_Desc>
+
+  <!-- Idiomas -->
+  <RimAI_Language_Portuguese_BR>Português (Brasil)</RimAI_Language_Portuguese_BR>
   <RimAI_Language_English>English</RimAI_Language_English>
 
-  <!-- Settings Menu Labels -->
-  <RimAI_Settings_Provider>AI Provider:</RimAI_Settings_Provider>
+  <!-- Configurações API -->
+  <RimAI_Settings_Provider>API Provider:</RimAI_Settings_Provider>
+  <RimAI_Settings_CurrentProvider>Current Provider: {0}</RimAI_Settings_CurrentProvider>
   <RimAI_Settings_Model>AI Model:</RimAI_Settings_Model>
-  <RimAI_Settings_Personality>Narrator Personality:</RimAI_Settings_Personality>
-  <RimAI_Settings_Language>Game Language:</RimAI_Settings_Language>
+  <RimAI_Settings_ModelDesc>Model (e.g., openai/gpt-4o-mini, claude-3-haiku):</RimAI_Settings_ModelDesc>
+  <RimAI_Settings_CustomURLDesc>API URL (e.g., http://localhost:1234/v1):</RimAI_Settings_CustomURLDesc>
+  <RimAI_Settings_MaxTokens>Max Tokens: {0}</RimAI_Settings_MaxTokens>
+  <RimAI_Settings_APIProviderDesc>Select which AI service you want to use.</RimAI_Settings_APIProviderDesc>
+  <RimAI_Settings_Credentials>Access Credentials</RimAI_Settings_Credentials>
   <RimAI_Settings_APIKey>{0} API Key:</RimAI_Settings_APIKey>
-  <RimAI_Settings_GetAPIKey_OpenRouter>Get Free OpenRouter API Key</RimAI_Settings_GetAPIKey_OpenRouter>
-  <RimAI_Settings_GetAPIKey_OpenAI>Get OpenAI API Key</RimAI_Settings_GetAPIKey_OpenAI>
-  <RimAI_Settings_GetAPIKey_Anthropic>Get Anthropic API Key</RimAI_Settings_GetAPIKey_Anthropic>
-  <RimAI_Settings_MinInterval>Min Event Interval: {0:F1} days</RimAI_Settings_MinInterval>
-  <RimAI_Settings_MaxInterval>Max Event Interval: {0:F1} days</RimAI_Settings_MaxInterval>
-  <RimAI_Settings_AiInfluence>AI Influence: {0:F0}%</RimAI_Settings_AiInfluence>
-  <RimAI_Settings_CacheDescription>0% = Vanilla only | 100% = Full AI control</RimAI_Settings_CacheDescription>
-  <RimAI_Settings_UseCache>Use Response Cache</RimAI_Settings_UseCache>
-  <RimAI_Settings_CacheTime>Cache Duration: {0} hours</RimAI_Settings_CacheTime>
-  <RimAI_Settings_DebugMode>Debug Mode (detailed logs)</RimAI_Settings_DebugMode>
-  <RimAI_Settings_ShowNotifications>Show API Notifications</RimAI_Settings_ShowNotifications>
-  <RimAI_Settings_PersistCache>Persist Cache in Saves</RimAI_Settings_PersistCache>
+  <RimAI_Settings_GetKey>Get API Key for {0}</RimAI_Settings_GetKey>
+  <RimAI_Settings_ValidateAPIKey>Validate API Key</RimAI_Settings_ValidateAPIKey>
   <RimAI_Settings_TestConnection>Test API Connection</RimAI_Settings_TestConnection>
   <RimAI_Settings_APIConfigured>[OK] API Key configured</RimAI_Settings_APIConfigured>
-  <RimAI_Settings_APINotConfigured>[WARNING] API Key not configured</RimAI_Settings_APINotConfigured>
+  <RimAI_Settings_APINotConfigured>[!] API Key not configured</RimAI_Settings_APINotConfigured>
 
-  <!-- Game Messages -->
+  <!-- Configurações Narrativa -->
+  <RimAI_Settings_Personality>Storyteller Personality:</RimAI_Settings_Personality>
+  <RimAI_Settings_Language>Game Language:</RimAI_Settings_Language>
+  <RimAI_Settings_CurrentCreativity>Creativity Level: {0}</RimAI_Settings_CurrentCreativity>
+  <RimAI_Settings_UseDynamicCreativity>Use Dynamic Creativity</RimAI_Settings_UseDynamicCreativity>
+  <RimAI_Settings_UseDynamicCreativityDesc>If enabled, AI 'temperature' changes with personality.</RimAI_Settings_UseDynamicCreativityDesc>
+  <RimAI_Settings_PersonalityTemp>Personality-based creativity: {0}</RimAI_Settings_PersonalityTemp>
+  <RimAI_Creativity_Sadistic>Low (0.45)</RimAI_Creativity_Sadistic>
+  <RimAI_Creativity_Protective>Low (0.45)</RimAI_Creativity_Protective>
+  <RimAI_Creativity_Chaotic>High (0.85)</RimAI_Creativity_Chaotic>
+  <RimAI_Creativity_Balanced>Medium (0.7)</RimAI_Creativity_Balanced>
+
+  <!-- Configurações Gameplay -->
+  <RimAI_Settings_Frequency>Event Frequency</RimAI_Settings_Frequency>
+  <RimAI_Settings_MinInterval>Min Interval Between Events: {0} days</RimAI_Settings_MinInterval>
+  <RimAI_Settings_MaxInterval>Max Interval Between Events: {0} days</RimAI_Settings_MaxInterval>
+  <RimAI_Settings_AiInfluenceValue>AI Influence: {0}%</RimAI_Settings_AiInfluenceValue>
+  <RimAI_Settings_CacheDescription>0% = Vanilla only | 100% = Full AI control</RimAI_Settings_CacheDescription>
+  <RimAI_Settings_EnableAutoInfluenceAdjustment>Auto Influence Adjustment</RimAI_Settings_EnableAutoInfluenceAdjustment>
+  <RimAI_Settings_EnableAutoInfluenceAdjustmentDesc>AI can reduce its own influence if the colony is suffering too much.</RimAI_Settings_EnableAutoInfluenceAdjustmentDesc>
+  <RimAI_Settings_UseCache>Use Response Cache</RimAI_Settings_UseCache>
+  <RimAI_Settings_CacheTime>Cache Time: {0} hours</RimAI_Settings_CacheTime>
+  <RimAI_Settings_PersistCache>Persist Cache in Saves</RimAI_Settings_PersistCache>
+  <RimAI_Settings_PersistCacheDesc>Increases save size, but keeps AI memory between sessions.</RimAI_Settings_PersistCacheDesc>
+  <RimAI_Settings_CachePerformance>Cache &amp; Performance</RimAI_Settings_CachePerformance>
+
+  <!-- Configurações Debug -->
+  <RimAI_Settings_DevTools>Development Tools</RimAI_Settings_DevTools>
+  <RimAI_Settings_DebugMode>Debug Mode (detailed logs)</RimAI_Settings_DebugMode>
+  <RimAI_Settings_ShowNotifications>Show API Notifications</RimAI_Settings_ShowNotifications>
+  <RimAI_Settings_RunTests>Run Tests</RimAI_Settings_RunTests>
+  <RimAI_Settings_TestArcs>Test Arc Generation</RimAI_Settings_TestArcs>
+
+  <!-- Testes e Mensagens -->
+  <RimAI_Settings_TestingConnection>Testing connection to {0} API...</RimAI_Settings_TestingConnection>
+  <RimAI_Settings_ConnectionError>[ERROR] Connection error: {0}</RimAI_Settings_ConnectionError>
+  <RimAI_Settings_TestAPIError>[ERROR] API test error: {0}</RimAI_Settings_TestAPIError>
+  <RimAI_Settings_RunningTests>Running tests...</RimAI_Settings_RunningTests>
+  <RimAI_Settings_TestsExecuted>Tests executed successfully</RimAI_Settings_TestsExecuted>
+  <RimAI_Settings_TestError>[ERROR] Tests failed: {0}</RimAI_Settings_TestError>
+  <RimAI_Settings_TestingArcs>Testing arc generation...</RimAI_Settings_TestingArcs>
+  <RimAI_Settings_ArcGenerated>Arc generated: {0} ({1})</RimAI_Settings_ArcGenerated>
+  <RimAI_Settings_ArcInvalid>Generated arc is invalid</RimAI_Settings_ArcInvalid>
+  <RimAI_Settings_ArcGenerationError>[ERROR] Arc generation failed: {0}</RimAI_Settings_ArcGenerationError>
+  <RimAI_Settings_ArcGenerationException>[ERROR] Arc generation exception: {0}</RimAI_Settings_ArcGenerationException>
+  <RimAI_Settings_ConfigureAPIKeyFirst>Configure an API Key first!</RimAI_Settings_ConfigureAPIKeyFirst>
+  <RimAI_Settings_APIKeyValid>Valid API Key</RimAI_Settings_APIKeyValid>
+  <RimAI_Settings_InvalidAPIKey>Invalid API Key for {0}</RimAI_Settings_InvalidAPIKey>
+
+  <!-- Mensagens do Jogo -->
   <RimAI_EventNotification>[AI Event] {0}</RimAI_EventNotification>
-  <RimAI_APIFailure>API failure, using vanilla event</RimAI_APIFailure>
-  <RimAI_APITimeout>API timeout - using vanilla event</RimAI_APITimeout>
+  <RimAI_APIFailure>API Failure, using vanilla event</RimAI_APIFailure>
+  <RimAI_APITimeout>API Timeout - using vanilla event</RimAI_APITimeout>
   <RimAI_APIKeyRequired>Configure an API Key first!</RimAI_APIKeyRequired>
   <RimAI_TestingConnection>Testing connection to {0} API...</RimAI_TestingConnection>
-  <RimAI_ConnectionSuccess>[OK] API connection successful!</RimAI_ConnectionSuccess>
+  <RimAI_ConnectionSuccess>[OK] Successful connection to API!</RimAI_ConnectionSuccess>
   <RimAI_ConnectionError>[ERROR] Connection error: {0}</RimAI_ConnectionError>
-  <RimAI_TestAPIError>[ERROR] API test error: {0}</RimAI_TestAPIError>
+  <RimAI_TestAPIError>[ERROR] Error testing API: {0}</RimAI_TestAPIError>
 
-  <!-- Status and Warnings -->
+  <!-- Status e Avisos -->
   <RimAI_Debug_APIRequest>Sending request to AI...</RimAI_Debug_APIRequest>
   <RimAI_Debug_UsingCache>Using cached response</RimAI_Debug_UsingCache>
   <RimAI_Debug_RollFailed>Influence roll failed, using vanilla</RimAI_Debug_RollFailed>
@@ -53,14 +108,9 @@
   <RimAI_Debug_InvalidDecision>Failed to parse AI decision</RimAI_Debug_InvalidDecision>
   <RimAI_Debug_NoAPIKey>API Key not configured, using vanilla fallback</RimAI_Debug_NoAPIKey>
 
-  <!-- Mod Categories -->
+  <!-- Categorias do Mod -->
   <RimAI_ModCategory>RimAI - AI Storytelling</RimAI_ModCategory>
   <RimAI_SettingsTitle>RimAI - Settings</RimAI_SettingsTitle>
 
-  <!-- Tooltips and Descriptions -->
-  <RimAI_Personality_Balanced_Desc>Balances challenge and reward based on colony state</RimAI_Personality_Balanced_Desc>
-  <RimAI_Personality_Sadistic_Desc>Prioritizes dangerous and challenging events</RimAI_Personality_Sadistic_Desc>
-  <RimAI_Personality_Chaotic_Desc>Mixes positive and negative events unpredictably</RimAI_Personality_Chaotic_Desc>
-  <RimAI_Personality_Protective_Desc>Prioritizes positive and helpful events</RimAI_Personality_Protective_Desc>
-
 </LanguageData>
+  <!-- Tooltips e Descrições -->
