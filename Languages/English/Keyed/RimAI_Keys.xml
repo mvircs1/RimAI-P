@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+  <!-- UI Tabs -->
+  <RimAI_Tab_API>API &amp; Connection</RimAI_Tab_API>
+  <RimAI_Tab_Narrative>Narrative</RimAI_Tab_Narrative>
+  <RimAI_Tab_Gameplay>Gameplay</RimAI_Tab_Gameplay>
+  <RimAI_Tab_Debug>Debug</RimAI_Tab_Debug>
+
   <!-- Narrator Personalities -->
   <RimAI_NarratorPersonality_Balanced>Balanced</RimAI_NarratorPersonality_Balanced>
   <RimAI_NarratorPersonality_Sadistic>Sadistic</RimAI_NarratorPersonality_Sadistic>
@@ -13,6 +19,12 @@
 
   <!-- Settings Menu Labels -->
   <RimAI_Settings_Provider>AI Provider:</RimAI_Settings_Provider>
+  <RimAI_Settings_ModelDesc>Model (ex: openai/gpt-4o-mini, claude-3-haiku):</RimAI_Settings_ModelDesc>
+  <RimAI_Settings_CustomURLDesc>API URL (ex: http://localhost:1234/v1):</RimAI_Settings_CustomURLDesc>
+  <RimAI_Settings_APIProviderDesc>Select which AI service to use.</RimAI_Settings_APIProviderDesc>
+  <RimAI_Settings_Credentials>Credentials</RimAI_Settings_Credentials>
+  <RimAI_Settings_Actions>Actions</RimAI_Settings_Actions>
+  <RimAI_Settings_OpenAdvanced>Open Advanced Settings</RimAI_Settings_OpenAdvanced>
   <RimAI_Settings_Model>AI Model:</RimAI_Settings_Model>
   <RimAI_Settings_Personality>Narrator Personality:</RimAI_Settings_Personality>
   <RimAI_Settings_Language>Game Language:</RimAI_Settings_Language>
@@ -57,11 +69,26 @@
   <RimAI_Settings_ValidateAPIKey>Validate API Key</RimAI_Settings_ValidateAPIKey>
   <RimAI_Settings_APIKeyValid>[OK] API Key is valid!</RimAI_Settings_APIKeyValid>
   <RimAI_Settings_UseDynamicCreativity>Use Dynamic Creativity (based on personality)</RimAI_Settings_UseDynamicCreativity>
+  <RimAI_Settings_UseDynamicCreativityDesc>When enabled, temperature changes based on personality.</RimAI_Settings_UseDynamicCreativityDesc>
   <RimAI_Settings_CurrentCreativity>Creativity Level: {0}</RimAI_Settings_CurrentCreativity>
   <RimAI_Settings_CreativityRange>0.3 = Strategic & Predictable | 1.0 = Chaotic & Dramatic</RimAI_Settings_CreativityRange>
   <RimAI_Settings_PersonalityTemp>Temperature based on personality: {0}</RimAI_Settings_PersonalityTemp>
   <RimAI_Settings_EnableAutoInfluenceAdjustment>Enable Auto Influence Adjustment</RimAI_Settings_EnableAutoInfluenceAdjustment>
   <RimAI_Settings_EnableAutoInfluenceAdjustmentDesc>Allow AI to automatically adjust its influence based on event quality</RimAI_Settings_EnableAutoInfluenceAdjustmentDesc>
+  <RimAI_Settings_CreativityLevel>Creativity</RimAI_Settings_CreativityLevel>
+  <RimAI_Settings_InvalidInterval>Min interval cannot exceed max interval.</RimAI_Settings_InvalidInterval>
+  <RimAI_Settings_ResetComplete>Settings reset.</RimAI_Settings_ResetComplete>
+  <RimAI_Settings_ResetAll>Reset all settings</RimAI_Settings_ResetAll>
+  <RimAI_Settings_GetKey>Get API Key for {0}</RimAI_Settings_GetKey>
+  <RimAI_Settings_PersistCache>Persist Cache in Saves</RimAI_Settings_PersistCache>
+  <RimAI_Settings_PersistCacheDesc>Increases save size but keeps AI memory between sessions.</RimAI_Settings_PersistCacheDesc>
+  <RimAI_Settings_CachePerformance>Cache &amp; Performance</RimAI_Settings_CachePerformance>
+  <RimAI_Settings_HarmonyStatus>Harmony Status</RimAI_Settings_HarmonyStatus>
+  <RimAI_Settings_HarmonyApplied>Harmony patches applied</RimAI_Settings_HarmonyApplied>
+  <RimAI_Settings_HarmonyFailed>Harmony patches failed</RimAI_Settings_HarmonyFailed>
+  <RimAI_Settings_HarmonyNotApplied>Harmony patches not applied</RimAI_Settings_HarmonyNotApplied>
+  <RimAI_Settings_HarmonyError>Last error: {0}</RimAI_Settings_HarmonyError>
+  <RimAI_Settings_DevTools>Development Tools</RimAI_Settings_DevTools>
 
   <!-- Game Messages -->
   <RimAI_EventNotification>[AI Event] {0}</RimAI_EventNotification>

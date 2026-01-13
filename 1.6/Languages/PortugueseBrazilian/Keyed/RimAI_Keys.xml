@@ -2,116 +2,126 @@
 <LanguageData>
 
   <!-- Abas da UI -->
-  <RimAI_Tab_API>API &amp; Conexão</RimAI_Tab_API>
+  <RimAI_Tab_API>API &amp; Conexao</RimAI_Tab_API>
   <RimAI_Tab_Narrative>Narrativa</RimAI_Tab_Narrative>
   <RimAI_Tab_Gameplay>Gameplay</RimAI_Tab_Gameplay>
   <RimAI_Tab_Debug>Debug</RimAI_Tab_Debug>
 
   <!-- Personalidades do Narrador -->
   <RimAI_NarratorPersonality_Balanced>Equilibrado</RimAI_NarratorPersonality_Balanced>
-  <RimAI_NarratorPersonality_Sadistic>Sádico</RimAI_NarratorPersonality_Sadistic>
-  <RimAI_NarratorPersonality_Chaotic>Caótico</RimAI_NarratorPersonality_Chaotic>
+  <RimAI_NarratorPersonality_Sadistic>Sadistico</RimAI_NarratorPersonality_Sadistic>
+  <RimAI_NarratorPersonality_Chaotic>Caotico</RimAI_NarratorPersonality_Chaotic>
   <RimAI_NarratorPersonality_Protective>Protetor</RimAI_NarratorPersonality_Protective>
 
-  <!-- Descrições das Personalidades -->
-  <RimAI_Personality_Balanced_Desc>Equilibra desafio e recompensa baseado no estado da colônia</RimAI_Personality_Balanced_Desc>
+  <!-- Descricoes das Personalidades -->
+  <RimAI_Personality_Balanced_Desc>Equilibra desafio e recompensa baseado no estado da colonia</RimAI_Personality_Balanced_Desc>
   <RimAI_Personality_Sadistic_Desc>Prioriza eventos perigosos e desafiadores</RimAI_Personality_Sadistic_Desc>
   <RimAI_Personality_Chaotic_Desc>Mistura eventos positivos e negativos imprevisivelmente</RimAI_Personality_Chaotic_Desc>
   <RimAI_Personality_Protective_Desc>Prioriza eventos positivos e ajudadores</RimAI_Personality_Protective_Desc>
 
   <!-- Idiomas -->
-  <RimAI_Language_Portuguese_BR>Português (Brasil)</RimAI_Language_Portuguese_BR>
+  <RimAI_Language_Portuguese_BR>Portugues (Brasil)</RimAI_Language_Portuguese_BR>
   <RimAI_Language_English>English</RimAI_Language_English>
 
-  <!-- Configurações API -->
+  <!-- Configuracoes API -->
   <RimAI_Settings_Provider>Provedor de API:</RimAI_Settings_Provider>
   <RimAI_Settings_CurrentProvider>Provedor Atual: {0}</RimAI_Settings_CurrentProvider>
   <RimAI_Settings_Model>Modelo de IA:</RimAI_Settings_Model>
-  <RimAI_Settings_ModelDesc>Modelo (Ex: openai/gpt-4o-mini, claude-3-haiku):</RimAI_Settings_ModelDesc>
-  <RimAI_Settings_CustomURLDesc>URL da API (Ex: http://localhost:1234/v1):</RimAI_Settings_CustomURLDesc>
+  <RimAI_Settings_ModelDesc>Modelo (ex: openai/gpt-4o-mini, claude-3-haiku):</RimAI_Settings_ModelDesc>
+  <RimAI_Settings_CustomURLDesc>URL da API (ex: http://localhost:1234/v1):</RimAI_Settings_CustomURLDesc>
   <RimAI_Settings_MaxTokens>Max Tokens: {0}</RimAI_Settings_MaxTokens>
-  <RimAI_Settings_APIProviderDesc>Selecione qual serviço de IA você deseja usar.</RimAI_Settings_APIProviderDesc>
-  <RimAI_Settings_Credentials>Credenciais de Acesso</RimAI_Settings_Credentials>
+  <RimAI_Settings_APIProviderDesc>Selecione qual servico de IA usar.</RimAI_Settings_APIProviderDesc>
+  <RimAI_Settings_Credentials>Credenciais</RimAI_Settings_Credentials>
+  <RimAI_Settings_Actions>Acoes</RimAI_Settings_Actions>
+  <RimAI_Settings_OpenAdvanced>Abrir configuracoes avancadas</RimAI_Settings_OpenAdvanced>
   <RimAI_Settings_APIKey>API Key do {0}:</RimAI_Settings_APIKey>
   <RimAI_Settings_GetKey>Obter API Key para {0}</RimAI_Settings_GetKey>
   <RimAI_Settings_ValidateAPIKey>Validar API Key</RimAI_Settings_ValidateAPIKey>
-  <RimAI_Settings_TestConnection>Testar Conexão com API</RimAI_Settings_TestConnection>
+  <RimAI_Settings_TestConnection>Testar Conexao com API</RimAI_Settings_TestConnection>
   <RimAI_Settings_APIConfigured>[OK] API Key configurada</RimAI_Settings_APIConfigured>
-  <RimAI_Settings_APINotConfigured>[!] API Key não configurada</RimAI_Settings_APINotConfigured>
+  <RimAI_Settings_APINotConfigured>[!] API Key nao configurada</RimAI_Settings_APINotConfigured>
 
-  <!-- Configurações Narrativa -->
+  <!-- Configuracoes Narrativa -->
   <RimAI_Settings_Personality>Personalidade do Narrador:</RimAI_Settings_Personality>
   <RimAI_Settings_Language>Idioma do Jogo:</RimAI_Settings_Language>
-  <RimAI_Settings_CurrentCreativity>Nível de Criatividade: {0}</RimAI_Settings_CurrentCreativity>
-  <RimAI_Settings_UseDynamicCreativity>Usar Criatividade Dinâmica</RimAI_Settings_UseDynamicCreativity>
-  <RimAI_Settings_UseDynamicCreativityDesc>Se ativado, a 'temperatura' da IA muda com a personalidade.</RimAI_Settings_UseDynamicCreativityDesc>
+  <RimAI_Settings_CurrentCreativity>Nivel de Criatividade: {0}</RimAI_Settings_CurrentCreativity>
+  <RimAI_Settings_UseDynamicCreativity>Usar Criatividade Dinamica</RimAI_Settings_UseDynamicCreativity>
+  <RimAI_Settings_UseDynamicCreativityDesc>Se ativado, a temperatura da IA muda com a personalidade.</RimAI_Settings_UseDynamicCreativityDesc>
   <RimAI_Settings_PersonalityTemp>Criatividade baseada na personalidade: {0}</RimAI_Settings_PersonalityTemp>
+  <RimAI_Settings_CreativityLevel>Criatividade</RimAI_Settings_CreativityLevel>
   <RimAI_Creativity_Sadistic>Baixa (0.45)</RimAI_Creativity_Sadistic>
   <RimAI_Creativity_Protective>Baixa (0.45)</RimAI_Creativity_Protective>
   <RimAI_Creativity_Chaotic>Alta (0.85)</RimAI_Creativity_Chaotic>
-  <RimAI_Creativity_Balanced>Média (0.7)</RimAI_Creativity_Balanced>
+  <RimAI_Creativity_Balanced>Media (0.7)</RimAI_Creativity_Balanced>
 
-  <!-- Configurações Gameplay -->
-  <RimAI_Settings_Frequency>Frequência de Eventos</RimAI_Settings_Frequency>
-  <RimAI_Settings_MinInterval>Intervalo Mínimo entre Eventos: {0} dias</RimAI_Settings_MinInterval>
-  <RimAI_Settings_MaxInterval>Intervalo Máximo entre Eventos: {0} dias</RimAI_Settings_MaxInterval>
-  <RimAI_Settings_AiInfluence>Influência da AI</RimAI_Settings_AiInfluence>
-  <RimAI_Settings_AiInfluenceValue>Influência da IA: {0}%</RimAI_Settings_AiInfluenceValue>
-  <RimAI_Settings_CacheDescription>0% = Apenas vanilla | 100% = Controle total da AI</RimAI_Settings_CacheDescription>
-  <RimAI_Settings_EnableAutoInfluenceAdjustment>Ajuste Automático de Influência</RimAI_Settings_EnableAutoInfluenceAdjustment>
-  <RimAI_Settings_EnableAutoInfluenceAdjustmentDesc>A IA pode reduzir sua própria influência se a colônia estiver sofrendo muito.</RimAI_Settings_EnableAutoInfluenceAdjustmentDesc>
+  <!-- Configuracoes Gameplay -->
+  <RimAI_Settings_Frequency>Frequencia de Eventos</RimAI_Settings_Frequency>
+  <RimAI_Settings_MinInterval>Intervalo Minimo entre Eventos: {0} dias</RimAI_Settings_MinInterval>
+  <RimAI_Settings_MaxInterval>Intervalo Maximo entre Eventos: {0} dias</RimAI_Settings_MaxInterval>
+  <RimAI_Settings_InvalidInterval>Intervalo minimo nao pode ser maior que o maximo.</RimAI_Settings_InvalidInterval>
+  <RimAI_Settings_AiInfluence>Influencia da IA</RimAI_Settings_AiInfluence>
+  <RimAI_Settings_AiInfluenceValue>Influencia da IA: {0}%</RimAI_Settings_AiInfluenceValue>
+  <RimAI_Settings_CacheDescription>0% = Apenas vanilla | 100% = Controle total da IA</RimAI_Settings_CacheDescription>
+  <RimAI_Settings_EnableAutoInfluenceAdjustment>Ajuste Automatico de Influencia</RimAI_Settings_EnableAutoInfluenceAdjustment>
+  <RimAI_Settings_EnableAutoInfluenceAdjustmentDesc>A IA pode reduzir sua propria influencia se a colonia estiver sofrendo muito.</RimAI_Settings_EnableAutoInfluenceAdjustmentDesc>
   <RimAI_Settings_UseCache>Usar Cache de Respostas</RimAI_Settings_UseCache>
   <RimAI_Settings_CacheTime>Tempo de Cache: {0} horas</RimAI_Settings_CacheTime>
   <RimAI_Settings_PersistCache>Persistir Cache nos Saves</RimAI_Settings_PersistCache>
-  <RimAI_Settings_PersistCacheDesc>Aumenta o tamanho do save, mas mantém a memória da IA entre sessões.</RimAI_Settings_PersistCacheDesc>
+  <RimAI_Settings_PersistCacheDesc>Aumenta o tamanho do save, mas mantem a memoria da IA entre sessoes.</RimAI_Settings_PersistCacheDesc>
   <RimAI_Settings_CachePerformance>Cache &amp; Performance</RimAI_Settings_CachePerformance>
 
-  <!-- Configurações Debug -->
+  <!-- Configuracoes Debug -->
   <RimAI_Settings_DevTools>Ferramentas de Desenvolvimento</RimAI_Settings_DevTools>
   <RimAI_Settings_DebugMode>Modo Debug (logs detalhados)</RimAI_Settings_DebugMode>
-  <RimAI_Settings_ShowNotifications>Mostrar Notificações de API</RimAI_Settings_ShowNotifications>
+  <RimAI_Settings_ShowNotifications>Mostrar Notificacoes de API</RimAI_Settings_ShowNotifications>
   <RimAI_Settings_RunTests>Executar Testes</RimAI_Settings_RunTests>
-  <RimAI_Settings_TestArcs>Testar Geração de Arcos</RimAI_Settings_TestArcs>
+  <RimAI_Settings_TestArcs>Testar Geracao de Arcos</RimAI_Settings_TestArcs>
+  <RimAI_Settings_ResetComplete>Configuracoes restauradas.</RimAI_Settings_ResetComplete>
+  <RimAI_Settings_ResetAll>Restaurar tudo</RimAI_Settings_ResetAll>
+  <RimAI_Settings_HarmonyStatus>Status do Harmony</RimAI_Settings_HarmonyStatus>
+  <RimAI_Settings_HarmonyApplied>Patches do Harmony aplicados</RimAI_Settings_HarmonyApplied>
+  <RimAI_Settings_HarmonyFailed>Falha ao aplicar patches do Harmony</RimAI_Settings_HarmonyFailed>
+  <RimAI_Settings_HarmonyNotApplied>Patches do Harmony nao aplicados</RimAI_Settings_HarmonyNotApplied>
+  <RimAI_Settings_HarmonyError>Ultimo erro: {0}</RimAI_Settings_HarmonyError>
 
   <!-- Testes e Mensagens -->
-  <RimAI_Settings_TestingConnection>Testando conexão com API {0}...</RimAI_Settings_TestingConnection>
-  <RimAI_Settings_ConnectionError>[ERRO] Erro de conexão: {0}</RimAI_Settings_ConnectionError>
+  <RimAI_Settings_TestingConnection>Testando conexao com API {0}...</RimAI_Settings_TestingConnection>
+  <RimAI_Settings_ConnectionError>[ERRO] Erro de conexao: {0}</RimAI_Settings_ConnectionError>
   <RimAI_Settings_TestAPIError>[ERRO] Erro no teste da API: {0}</RimAI_Settings_TestAPIError>
   <RimAI_Settings_RunningTests>Executando testes...</RimAI_Settings_RunningTests>
   <RimAI_Settings_TestsExecuted>Testes executados com sucesso</RimAI_Settings_TestsExecuted>
   <RimAI_Settings_TestError>[ERRO] Falha nos testes: {0}</RimAI_Settings_TestError>
-  <RimAI_Settings_TestingArcs>Testando geração de arcos...</RimAI_Settings_TestingArcs>
+  <RimAI_Settings_TestingArcs>Testando geracao de arcos...</RimAI_Settings_TestingArcs>
   <RimAI_Settings_ArcGenerated>Arco gerado: {0} ({1})</RimAI_Settings_ArcGenerated>
-  <RimAI_Settings_ArcInvalid>Arco gerado é inválido</RimAI_Settings_ArcInvalid>
-  <RimAI_Settings_ArcGenerationError>[ERRO] Falha na geração de arco: {0}</RimAI_Settings_ArcGenerationError>
-  <RimAI_Settings_ArcGenerationException>[ERRO] Exceção na geração de arco: {0}</RimAI_Settings_ArcGenerationException>
+  <RimAI_Settings_ArcInvalid>Arco gerado e invalido</RimAI_Settings_ArcInvalid>
+  <RimAI_Settings_ArcGenerationError>[ERRO] Falha na geracao de arco: {0}</RimAI_Settings_ArcGenerationError>
+  <RimAI_Settings_ArcGenerationException>[ERRO] Excecao na geracao de arco: {0}</RimAI_Settings_ArcGenerationException>
   <RimAI_Settings_ConfigureAPIKeyFirst>Configure uma API Key primeiro!</RimAI_Settings_ConfigureAPIKeyFirst>
-  <RimAI_Settings_APIKeyValid>API Key válida</RimAI_Settings_APIKeyValid>
-  <RimAI_Settings_InvalidAPIKey>API Key inválida para {0}</RimAI_Settings_InvalidAPIKey>
+  <RimAI_Settings_APIKeyValid>API Key valida</RimAI_Settings_APIKeyValid>
+  <RimAI_Settings_InvalidAPIKey>API Key invalida para {0}</RimAI_Settings_InvalidAPIKey>
 
   <!-- Mensagens do Jogo -->
   <RimAI_EventNotification>[Evento IA] {0}</RimAI_EventNotification>
   <RimAI_APIFailure>Falha na API, usando evento vanilla</RimAI_APIFailure>
   <RimAI_APITimeout>Timeout da API - usando evento vanilla</RimAI_APITimeout>
   <RimAI_APIKeyRequired>Configure uma API Key primeiro!</RimAI_APIKeyRequired>
-  <RimAI_TestingConnection>Testando conexão com {0} API...</RimAI_TestingConnection>
-  <RimAI_ConnectionSuccess>[OK] Conexão bem-sucedida com a API!</RimAI_ConnectionSuccess>
-  <RimAI_ConnectionError>[ERRO] Erro na conexão: {0}</RimAI_ConnectionError>
+  <RimAI_TestingConnection>Testando conexao com {0} API...</RimAI_TestingConnection>
+  <RimAI_ConnectionSuccess>[OK] Conexao bem-sucedida com a API!</RimAI_ConnectionSuccess>
+  <RimAI_ConnectionError>[ERRO] Erro na conexao: {0}</RimAI_ConnectionError>
   <RimAI_TestAPIError>[ERRO] Erro ao testar API: {0}</RimAI_TestAPIError>
 
   <!-- Status e Avisos -->
-  <RimAI_Debug_APIRequest>Enviando requisição para IA...</RimAI_Debug_APIRequest>
+  <RimAI_Debug_APIRequest>Enviando requisicao para IA...</RimAI_Debug_APIRequest>
   <RimAI_Debug_UsingCache>Usando resposta do cache</RimAI_Debug_UsingCache>
-  <RimAI_Debug_RollFailed>Roll de influência falhou, usando vanilla</RimAI_Debug_RollFailed>
-  <RimAI_Debug_EventScheduled>Próximo evento agendado em {0:F1} dias</RimAI_Debug_EventScheduled>
-  <RimAI_Debug_IncidentInvalid>Incidente {0} não pode ser disparado agora (CanFireNow = false), ignorando decisão da IA</RimAI_Debug_IncidentInvalid>
-  <RimAI_Debug_APIResponse>Decisão recebida: {0}</RimAI_Debug_APIResponse>
-  <RimAI_Debug_InvalidDecision>Falha ao parsear decisão da IA</RimAI_Debug_InvalidDecision>
-  <RimAI_Debug_NoAPIKey>API Key não configurada, usando fallback vanilla</RimAI_Debug_NoAPIKey>
+  <RimAI_Debug_RollFailed>Roll de influencia falhou, usando vanilla</RimAI_Debug_RollFailed>
+  <RimAI_Debug_EventScheduled>Proximo evento agendado em {0:F1} dias</RimAI_Debug_EventScheduled>
+  <RimAI_Debug_IncidentInvalid>Incidente {0} nao pode ser disparado agora (CanFireNow = false), ignorando decisao da IA</RimAI_Debug_IncidentInvalid>
+  <RimAI_Debug_APIResponse>Decisao recebida: {0}</RimAI_Debug_APIResponse>
+  <RimAI_Debug_InvalidDecision>Falha ao parsear decisao da IA</RimAI_Debug_InvalidDecision>
+  <RimAI_Debug_NoAPIKey>API Key nao configurada, usando fallback vanilla</RimAI_Debug_NoAPIKey>
 
   <!-- Categorias do Mod -->
   <RimAI_ModCategory>RimAI - Narrativa com IA</RimAI_ModCategory>
-  <RimAI_SettingsTitle>RimAI - Configurações</RimAI_SettingsTitle>
+  <RimAI_SettingsTitle>RimAI - Configuracoes</RimAI_SettingsTitle>
 
-  <!-- Tooltips e Descrições -->
 </LanguageData>

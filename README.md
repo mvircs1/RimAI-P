@@ -1,39 +1,12 @@
-# RimAI - AI Storyteller for RimWorld
+# RimAI Beta
 
-RimAI is a mod that replaces RimWorld's storyteller with an AI-powered system that generates dynamic events based on your colony's state.
-
-## Requirements
-- RimWorld 1.6+
-- Harmony mod
-- Internet connection
-- API key from OpenRouter, OpenAI, or Anthropic
+RimAI is a RimWorld mod that replaces the traditional storyteller with AI-powered narrative generation. The mod uses AI to create contextual events based on your colony's current state, generating dynamic stories and challenges.
 
 ## Installation
-1. Copy the RimAI-Alpha folder to your RimWorld Mods directory
-2. Start RimWorld
-3. Enable the RimAI mod
-4. Configure your API key in mod settings
 
-## API Configuration
-- Go to Mods > RimAI > Configure
-- Select your API provider
-- Enter your API key
-- Choose an AI model
+1. Ensure you have RimWorld installed and the Harmony mod (available on Steam Workshop or GitHub).
+2. Copy the entire "RimAI Beta" folder to your RimWorld mods folder (usually located at `Documents/My Games/RimWorld/Mods`).
+3. Launch RimWorld and go to the mods menu to enable RimAI.
+4. Configure your OpenRouter API key in the mod settings if required.
 
-## Usage
-- Start a new game
-- Select "AI Oracle" as storyteller
-- The AI will generate events based on colony conditions
-
-## Settings
-- Adjust event frequency
-- Choose storyteller personality
-- Configure AI influence level
-
-## Troubleshooting
-- Check API key if no events generate
-- Enable debug mode for logs
-- Verify internet connection
-
-## License
-MIT License
+For more information, visit the GitHub repository: https://github.com/Mvircs1/RimAI
